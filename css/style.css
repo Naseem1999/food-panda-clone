@@ -1,0 +1,699 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+ --primary-color:#FF2B85;
+ --color-black:#231f20;
+ --heading-color:#343B46;
+ --slide-color:#F5F5F6;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav{
+    padding: 1.7rem;
+    height: 7.1rem;
+   position: sticky;
+   top: 0;
+   
+
+    background-color: #ffffff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    
+}
+.navbar ul li{
+    margin-left: 2.4rem;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4rem;
+    display: inline-block;
+    margin-top: 1.5rem;
+    color: var(--color-black);
+    
+}
+.navbar ul li a:hover{
+
+}
+.navbar ul li button{
+    padding: 1.5rem 1rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 2.5rem;
+    line-height: 1.6rem;
+    border: none;
+    margin-bottom: 1rem;
+    
+    cursor: pointer;
+    align-items: center;
+}
+.navbar ul li button:hover{
+    transition: all 0.3s ease-in;
+    background-color: #C21760;
+}
+
+.navbar ul li i{
+    font-size: 2.5rem;
+    margin-top: .5rem;
+    cursor: pointer;
+}
+.header{
+    width: 100%;
+    height: 75vh;
+    position: relative;
+    /* background-color: red; */
+    /* border: 2px solid red; */
+    background-size: cover;
+}
+.header .video{
+z-index: -1;
+position: absolute;
+top:0;
+
+height: 75vh;
+width: 100%;
+overflow: hidden;
+ object-fit: cover;
+
+}  
+.header-content {
+    position: absolute;
+    bottom: 6rem;
+    
+    /* border: 2px solid red; */
+ 
+}
+.header-content h1{
+    font-size: 5.5rem;
+    color: #fff;
+    
+}
+main {
+  
+    
+}
+.sec-1{
+    margin-top: 6.4rem;
+    margin-bottom: 6.4rem;
+    /* background-color: var(--primary-color); */
+    width: 100%;
+    height: 250px;
+    display: flex;
+    /* border: 2px solid red; */
+    /* text-align: center; */
+    padding: 2rem;
+    
+}
+.sec-1 .content{
+    font-size: 3.6rem;
+    flex: 2;
+    line-height: 4.5rem;
+    color: var(--heading-color);
+    font-weight: bolder;
+}
+.sec-1 .empty{
+    flex: 1;
+}
+
+.sec-2{
+display: flex;
+height: 350px;
+/* border: 2px solid red; */
+margin-bottom: 10rem;
+
+}
+
+.sec-2 .sec-2-image{
+    width: 50%;
+    background: url("../Assets//images/fp-home.jpg") no-repeat center center/cover;
+  
+   
+}
+.sec-2 .sec-2-content{
+    width: 50%;
+   
+    padding: 5rem;
+}
+.sec-2 .sec-2-content h1{
+    font-size: 3.6rem;
+    font-weight: bold;
+    line-height: 4.5rem;
+    color: var(--color-black);
+}
+.sec-2 .sec-2-content p{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    padding: 2rem 0;
+    color: #343b46;
+}
+.sec-2 .sec-2-content button{
+    padding: 1.5rem 5rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 2.5rem;
+    line-height: 1.6rem;
+    border: none;
+    margin-bottom: 1rem;
+    
+    cursor: pointer;
+    align-items: center; 
+}
+/* sec 3 */
+.sec-3{
+    display: flex;
+    /* border: 2px solid red; */
+    margin-bottom: 10rem;
+    height: 350px;
+}
+.sec-3 .sec-3-content{
+    width: 50%;
+    
+    padding: 5rem;
+}
+.sec-3 .sec-3-content h1{
+    font-size: 3.6rem;
+    font-weight: bold;
+    line-height: 4.5rem;
+    color: var(--color-black);
+}
+.sec-3 .sec-3-content p{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    padding: 2rem 0;
+    color: #343b46;
+}
+.sec-3 .sec-3-image{
+    width: 50%;
+    background: url("../Assets//images/foodpanda-home-2.jpg") no-repeat center center/cover;
+  
+    
+}
+.sec-4 {
+    display: flex;
+    /* border: 2px solid red; */
+    margin-bottom: 10rem;
+    height: 350px;
+}
+
+
+.sec-4 .sec-4-image{
+    background: url("../Assets//images/jason-goodman-Oalh2MojUuk-unsplash-scaled-e1681198203102.jpg") no-repeat center center/cover;
+    width: 50%;
+    
+}
+.sec-4 .sec-4-content{
+    padding: 5rem;
+    width: 50%;
+    align-self: center;
+}
+.sec-4 .sec-4-content h1{
+    font-size: 3.6rem;
+    font-weight: bold;
+    line-height: 4.5rem;
+    color: var(--color-black);
+}
+.sec-4 .sec-4-content .p1{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    padding: 2rem 0;
+    color: #343b46;
+}
+.sec-4 .sec-4-content .p2{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    
+    color: #343b46;
+    margin-bottom: 2rem;;
+}
+
+.sec-4 .sec-4-content button{
+    padding: 1.5rem 5rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 2.5rem;
+    line-height: 1.6rem;
+    border: none;
+    margin-bottom: 1rem;
+    
+    cursor: pointer;
+    align-items: center; 
+}
+
+/* sec5 */
+.sec-5{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    align-items: center;
+    margin-bottom: 6.5rem;
+}
+.sec-5 .heading{
+    font-size: 3.6rem;
+    font-weight: bold;
+    line-height: 4.5rem;
+    color: var(--color-black);
+}
+.sec-5 .para p{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    padding: 2rem 0;
+    color: #343b46;
+}
+
+
+/* #####################card sw=ection designing ############################################*/
+
+.cards-slider{
+    padding: 1rem;
+    margin-bottom: 2rem;
+    
+}
+.card-section .cards-slider  .card{
+   position: relative;
+    /* background: url("../Assets//images/APAC-foodpanda-partner-summit-PR.png") no-repeat center center/cover; */
+    height: 50rem;
+    width: 30rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-left: 1rem;
+}
+.card-section .cards-slider .card-1{
+    background: url("../Assets//images/APAC-foodpanda-partner-summit-PR.png") no-repeat center center/cover;
+}
+.card-section .cards-slider .card-2{
+    background: url("../Assets//images/Groceries_fresh.jpg") no-repeat center center/cover;
+}
+.card-section .cards-slider .card-3{
+    background: url("../Assets//images/03.jpg") no-repeat center center/cover;
+}
+.card-section .cards-slider .card-4{
+    background: url("../Assets//images/CKW_0637a-scaled.jpg") no-repeat center center/cover;
+}
+.card-section .cards-slider .card-5{
+    background: url("../Assets//images/foodpanda-pau-pau-1.jpeg") no-repeat center center/cover;
+}
+.card-section .cards-slider .card-6{
+    background: url("../Assets//images/foodpanda-pau-pau-1.jpeg") no-repeat center center/cover;
+}
+.card-section .cards-slider .card-7{
+    background: url("../Assets//images/APAC-foodpanda-partner-summit-PR.png") no-repeat center center/cover;
+}
+.card-section .cards-slider .card-8{
+    background: url("../Assets//images/03.jpg") no-repeat center center/cover;
+}
+.card-section .cards-slider .card-9{
+    background: url("../Assets//images/CKW_0637a-scaled.jpg") no-repeat center center/cover;
+}
+.cards-slider .card  .links a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 2rem;
+}
+.cards-slider .card  .links{
+    display: flex;
+    justify-content: space-between;
+}
+.cards-slider  .card .content{
+    position: absolute;
+    bottom: 2rem;
+    /* border: 2px solid red; */
+}
+.cards-slider .card .content p{
+    font-size: 2.4rem;
+    top: 3rem;
+    color: #ffffff;
+    line-height: 3rem;font-weight: bold;
+}
+/* ############sec-6################################# */
+
+.section-6{
+    margin-top: 10rem;
+    /* border: 2px solid red; */
+}
+.sec-6{
+    
+    display: flex;
+    /* border: 2px solid red; */
+    margin-bottom: 10rem;
+    height: 350px;
+}
+.sec-6 .sec-6-content{
+    width: 50%;
+    
+    padding: 8rem;
+}
+.sec-6 .sec-6-content h1{
+    font-size: 3.6rem;
+    font-weight: bold;
+    line-height: 4.5rem;
+    color: var(--color-black);
+}
+.sec-6 .sec-6-content p{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    padding: 2rem 0;
+    color: #343b46;
+}
+.sec-6 .sec-6-content a{
+    
+        display: inline-block;
+        padding: 10px 0px;
+        font-size: 1.7rem;
+        color:var(--primary-color);
+        text-decoration: none;
+        font-weight: bold;
+        
+      
+}
+.sec-6 .sec-6-content a:hover{
+    color: var(--heading-color);
+}
+.sec-6 .sec-6-image{
+    width: 50%;
+    background: url("../Assets//images/foodpanda-home-3.jpg") no-repeat center center/cover;
+  
+    
+}
+
+footer{
+    background-color: #000000;
+    margin-top: 10rem;
+}
+.footer-sec{
+    padding: 3rem 0;
+}
+.box-sec{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-sec .box-sec .box1 a,
+.footer-sec .box-sec .box2 a
+{
+display: block;
+text-decoration: none;
+
+}
+
+.footer-sec .box-sec .box{
+margin: 3rem 0;
+}
+.box-sec .box1 .main-head,
+.box-sec .box2 .main-head,
+.box-sec .box3 .main-head{
+ font-size: 1.6rem;
+ line-height: 2.4rem;
+ color: #ffffff;
+ font-weight: bold;
+ margin-bottom: 1.6rem;
+ text-decoration: none;
+}
+.box-sec .box1 .link,
+.box-sec .box2 .link{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+.footer-sec .box-sec .box3 .main-head{
+    display: block;
+    margin-bottom: 1.6rem;
+}
+.box-sec .box3 .icons{
+    margin-top: 2rem;
+padding-right: 2rem;
+font-size: 1.6rem;
+color: #ffffff;
+cursor: pointer;
+}
+.box-sec .box3 i{
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.box-sec .box3 i:hover{
+    background-color: #343B46;
+}
+
+.last-sec {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.last-sec .desc p{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.last-sec .privacy a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+
+/* ############################About page styling################################# */
+.about-header{
+    position: relative;
+    background: url("../Assets/about-images/about-foodpanda.jpeg") no-repeat center center/cover;
+    height: 75vh;
+    width: 100vw;
+   
+    
+}
+
+
+.about-header .about-content{
+    position: absolute;
+    bottom: 12rem;
+}
+.about-header .about-content h1{
+    font-size: 5.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    
+}
+
+.about-content2{
+    margin-top: 6rem;
+    margin-bottom: 10rem;
+
+    
+    padding: 1rem;
+}
+.about-content2 .about-material{
+width: 65%;
+}
+.about-content2 .about-material h1{
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    color: var(--heading-color);
+    margin-bottom: 1rem;
+}
+.about-content2 .about-material p{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--heading-color);
+    margin-bottom: 1.5rem;
+}
+
+/* ##############slide section styling################## */
+.slide-show{
+    background-color: var(--slide-color);
+    /* border: 2px solid red; */
+
+    margin-bottom: 10rem;
+    overflow:auto;
+    
+}
+.slide-1 .slide-1-content{
+    width: 50%;
+    padding-top: 2rem;
+    padding-bottom: 13rem;
+    padding-left: 3.2rem;
+    padding-right: 7rem;
+}
+.slide-1{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.slide-1 .slide-1-content{
+    width: 50%;
+}
+.slide-1 .slide-1-content h1{
+    font-size: 3.6rem;
+    font-weight: bold;
+    color: var(--heading-color);
+    line-height: 4.5rem;
+    margin-bottom: 1.6rem;
+}
+.slide-1 .slide-1-content p{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color:var(--heading-color) ;
+    
+}
+.slide-1 .slide-1-image{
+    background: url("../Assets/about-images/fp-about-2.jpg") no-repeat center center/cover;
+    width: 50%;
+    
+}
+
+.slide-2{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.slide-2 .slide-2-content h1{
+    font-size: 3.6rem;
+    font-weight: bold;
+    color: var(--heading-color);
+    line-height: 4.5rem;
+    margin-bottom: 1.6rem;
+}
+.slide-2 .slide-2-content p{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color:var(--heading-color) ;
+    margin-bottom: 4rem;
+    
+}
+.slide-2{
+    display: flex;
+}
+.slide-2 .slide-2-content{
+    width: 50%;
+    padding-top: 1rem;
+    padding-bottom: 13rem;
+    padding-left: 2rem;
+    padding-right: 13rem;
+    
+}
+
+.slide-2 .slide-2-content button{
+    padding: 1.5rem 5rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 2.5rem;
+    line-height: 1.6rem;
+    border: none;
+    margin-bottom: 1rem;
+    
+    cursor: pointer;
+    align-items: center; 
+}
+.slide-2 .slide-2-image{
+    background: url("../Assets/about-images/Rider-Safety.jpeg") no-repeat center center/cover;
+    width: 50%;
+}
+
+
+
+.slide-3{
+    display: flex;
+}
+.slide-3 .slide-3-content h1{
+    font-size: 3.6rem;
+    font-weight: bold;
+    color: var(--heading-color);
+    line-height: 4.5rem;
+    margin-bottom: 1.6rem;
+}
+.slide-3 .slide-3-content p{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color:var(--heading-color) ;
+    margin-bottom: 4rem;
+    
+}
+.slide-3{
+    display: flex;
+  
+}
+.slide-3 .slide-3-content{
+    width: 50%;
+    padding-top: 1rem;
+    padding-bottom: 13rem;
+    padding-left: 2rem;
+    padding-right: 13rem;
+    
+}
+
+.slide-3 .slide-3-content button{
+    padding: 1.5rem 5rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 2.5rem;
+    line-height: 1.6rem;
+    border: none;
+    margin-bottom: 1rem;
+    
+    cursor: pointer;
+    align-items: center; 
+}
+.slide-3 .slide-3-image {
+    background: url("../Assets/about-images/Screen-Shot-2023-04-11-at-20.04.29.png") no-repeat center center/cover;
+   
+    width: 50%;
+}
+
+.slide-1,.slide-2,.slide-3{
+    margin-left: 12rem;
+    margin-right: 3rem;
+}
+
+/* ###########contact styling######################## */
+.contact-header{
+    position: relative;
+    background: url("../Assets/fp-contact-1.jpeg") no-repeat center center/cover;
+    height: 75vh;
+    width: 100vw;
+   
+    
+}
+
+
+.contact-header .contact-content{
+    position: absolute;
+    bottom: 12rem;
+}
+.contact-header .contact-content h1{
+    font-size: 5.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    
+}
